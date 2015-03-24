@@ -31,6 +31,8 @@ class Node
 		@data
 	end
 
+
+
 	def add (value)
 		if(value < @data)
 			if(@left_node == nil)

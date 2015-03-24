@@ -15,6 +15,19 @@ class BinarySearchTree
 		@root_node.add value
 	end
 
+	def traversal
+		traverse @root_node
+	end
+
+	def traverse (node)
+		if node == nil
+			return
+		end
+		traverse (node.left)
+		puts node.data
+		traverse (node.right)
+	end
+
 	def self.get_tree
 		bst = BinarySearchTree.new 10
 		bst.add (8)
