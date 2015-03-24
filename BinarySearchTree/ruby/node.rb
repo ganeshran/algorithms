@@ -30,6 +30,24 @@ class Node
 	def data
 		@data
 	end
+
+	def add (value)
+		if(@data < value)
+			if(@left_node == nil)
+				@left_node = Node.new value
+				return 
+			else
+				@left_node.add(value)
+			end
+		else
+			if(@right_node == nil)
+				@right_node = Node.new value
+				return
+			else
+				@right_node.add(value)		
+			end
+		end
+	end
 end
 
 

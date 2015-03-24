@@ -11,8 +11,5 @@ class BinarySearchTree
 		@root_node
 	end
 
-	def insert (newNodeData)
-		if @rootNode.data > newNodeData
-			insert(
-	end
+	
 end
