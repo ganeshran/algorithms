@@ -32,7 +32,7 @@ class Node
 	end
 
 	def add (value)
-		if(@data < value)
+		if(value < @data)
 			if(@left_node == nil)
 				@left_node = Node.new value
 				return 

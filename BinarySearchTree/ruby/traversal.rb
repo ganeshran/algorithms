@@ -1,13 +1,24 @@
 require './bst'
 
+class InOrderTraversal
+	def init
+		bst = BinarySearchTree.get_tree()
 
-bst = BinarySearchTree.new 10
-bst.root.add (5)
-bst.root.add (8)
-bst.root.add (12)
-bst.root.add (16)
-bst.root.add (11)
-bst.root.add (7)
-bst.root.add (6)
+		traverse bst.root
+	end
 
-puts bst.root.data
+	def traverse node
+		if node == nil
+			return
+		end
+		traverse(node.left)
+		puts node.data
+		traverse(node.right)
+	end
+end
+
+InOrderTraversal.new.init
+
+
+
+
