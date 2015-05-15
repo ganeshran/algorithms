@@ -7,6 +7,9 @@ end
 #A proc is an object that points to a block
 # A block is a piece of code that is declared but not run in the place 
 # it's written. The idea is to leave it up to the reciever"
+# A proc doesn't care about the number of parameters 
+# but lambda cares about the parameters
+
 
 def proc_example
 	say_hi = proc {|name| puts "Hi #{name}"}
@@ -21,3 +24,16 @@ end
 def call_twice_proc
 	twice_do (proc {puts "hi"})
 end
+
+def twice
+	yield 0 if block_given?
+	yield 1 if block_given?
+end
+
+def call_twice_block
+twice do |i|
+	puts "Hello #{i}"
+end
+end
+
+
