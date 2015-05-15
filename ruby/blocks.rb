@@ -9,7 +9,7 @@ end
 # it's written. The idea is to leave it up to the reciever"
 # A proc doesn't care about the number of parameters 
 # but lambda cares about the parameters
-
+# A lambda return exits the block, but not the enclosing method
 
 def proc_example
 	say_hi = proc {|name| puts "Hi #{name}"}
