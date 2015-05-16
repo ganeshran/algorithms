@@ -21,14 +21,22 @@ class Stack
 
 
 	def pop
+		temp = @list.head
+		@list.head = @list.head.next_node
+		temp.value
 	end
 
 	def peek
+		@list.head.value
 	end
 end
 
 stack = Stack.new
+stack.pop
+stack.pop
+stack.pop
+stack.pop
 stack.push(10)
 stack.push(42)
 stack.push(23)
-stack.print
+puts stack.peek
