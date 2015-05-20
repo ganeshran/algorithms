@@ -7,6 +7,3 @@ function baseClass() {
 	};
 }
 
-var classEg = new baseClass();
-console.log(classEg.method1())
-
