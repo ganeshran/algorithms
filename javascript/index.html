@@ -1,0 +1,20 @@
+<html>
+<head>Test Page
+
+</head>
+<body>
+<script type="text/javascript">
+var parent = {
+get: function() {
+	     return this.val;
+     },
+val: 42
+};
+console.log(parent.get());
+
+var child = Object.create(parent);
+child.val = 3.14;
+console.log(child.get());
+</script>
+</body>
+</html>
