@@ -7,8 +7,9 @@ var answer = {
 
 var firmAnswer = Object.create(answer);
 firmAnswer.get = function fn2() {
-	return this.val + '!!';
+	return answer.get.call(this) + '!!';
 };
 
 console.log(answer.get());
+firmAnswer.val = 3.14;
 console.log(firmAnswer.get());
