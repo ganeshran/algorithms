@@ -12,13 +12,13 @@ def deleteMNNodes list,m,n
 		iCounter += 1
 	end
 	iCounter = 0
-	while iCounter < n
+	while iCounter < (n+1)
 		if ref_ptr.next_node != nil
 			ref_ptr = ref_ptr.next_node
 		end
 		iCounter += 1
 	end
-	current_ptr.next_node = ref_ptr.next_node
+	current_ptr.next_node = ref_ptr
 
 end
 
