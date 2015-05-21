@@ -44,4 +44,18 @@ class LinkedList
 		sample.add 1
 		sample
 	end
+
+	def self.get_loop_sample
+		puts "Creating Looped List"
+		sample = LinkedList.new(5)
+		headNode = sample.head
+		headNode.next_node = Node.new(3,nil)
+		headNode.next_node.next_node = Node.new(7,nil)
+		headNode.next_node.next_node.next_node = Node.new(9,nil)
+		current_ptr = headNode.next_node.next_node.next_node
+		current_ptr.next_node = Node.new(11,nil)
+		current_ptr.next_node.next_node = Node.new(13,nil)
+		current_ptr.next_node.next_node.next_node = current_ptr
+		sample
+	end
 end
