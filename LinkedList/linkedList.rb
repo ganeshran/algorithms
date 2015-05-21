@@ -58,4 +58,14 @@ class LinkedList
 		current_ptr.next_node.next_node.next_node = current_ptr
 		sample
 	end
+
+	def self.get_circular_sample
+		sample = LinkedList.get_sample
+		current_ptr = sample.head
+		while(current_ptr.next_node != nil)
+			current_ptr = current_ptr.next_node
+		end
+		current_ptr.next_node = sample.head
+		sample
+	end
 end
