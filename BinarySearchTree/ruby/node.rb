@@ -31,7 +31,9 @@ class Node
 		@data
 	end
 
-
+	def data=(value)
+		@data = value
+	end
 
 	def add (value)
 		if(value < @data)
