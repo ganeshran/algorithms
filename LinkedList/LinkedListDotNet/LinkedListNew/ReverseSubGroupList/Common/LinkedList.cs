@@ -56,7 +56,7 @@ namespace Common
             var temp = this.Head;
             while (temp != null)
             {
-                Console.WriteLine(temp.Data);
+                Console.Write("{0} => ",temp.Data);
                 temp = temp.Next;
             }
         }
