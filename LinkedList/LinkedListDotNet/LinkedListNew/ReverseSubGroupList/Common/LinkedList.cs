@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Common
@@ -35,6 +36,29 @@ namespace Common
             newList.AddToLast(13);
             newList.AddToLast(16);
             return newList;
+        }
+
+        public static LinkedList GetRandomList(int length, int min = 1, int max = 100)
+        {
+            var random = new Random();
+            var newList = new LinkedList(random.Next(min,max));
+            for (int i = 0; i < length - 1; i++)
+            {
+                Thread.Sleep(10); // To get random values
+                newList.AddToLast(random.Next(min,max));
+            }
+            return newList;
+
+        }
+
+        public void Print()
+        {
+            var temp = this.Head;
+            while (temp != null)
+            {
+                Console.WriteLine(temp.Data);
+                temp = temp.Next;
+            }
         }
 }
 
