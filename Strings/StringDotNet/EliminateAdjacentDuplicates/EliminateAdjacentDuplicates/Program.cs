@@ -10,7 +10,7 @@ namespace EliminateAdjacentDuplicates
     {
         static void Main(string[] args)
         {
-            TestInput(new string[]{"ABBC","ACBBC","ABBBCDDC","A","ABC"}); 
+            TestInput(new string[]{"ABBBCDDC","A","ABC","ABBCCA","ABCDEEDCB"}); 
 
         }
 
@@ -19,7 +19,7 @@ namespace EliminateAdjacentDuplicates
             var rem = new RemoveDuplicates();
             foreach (var input in inputArray)
             {
-                Console.WriteLine("Input: {0}, Output: {1}",input,rem.RemoveUsingStack(input));
+                Console.WriteLine("Input: {0}, Output: {1}",input,rem.RemoveIteratively(input));
             }
         }
 
@@ -57,9 +57,26 @@ namespace EliminateAdjacentDuplicates
 
         public string RemoveIteratively(string input)
         {
-            int i = 0,j = 0;
-
-            return input;
+            var builder = new StringBuilder();
+            for (int i = 0, j = -1; i < input.Length; i++)
+            {
+                builder.Append(input[i]);
+                if (j < 0)
+                {
+                    j++;
+                    continue;
+                }
+                if (builder[j] != input[i])
+                {
+                    j++;
+                }
+                else
+                {
+                    j--;
+                    builder.Length -= 2;
+                }
+            }
+            return builder.ToString();
         }
     }
 }
