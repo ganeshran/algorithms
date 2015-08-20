@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItAnagram", "MakeItAnag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramReplacements", "AnagramReplacements\AnagramReplacements.csproj", "{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{E6867D95-7382-4453-AB40-C9BCD4E2687C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6867D95-7382-4453-AB40-C9BCD4E2687C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6867D95-7382-4453-AB40-C9BCD4E2687C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6867D95-7382-4453-AB40-C9BCD4E2687C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6867D95-7382-4453-AB40-C9BCD4E2687C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
