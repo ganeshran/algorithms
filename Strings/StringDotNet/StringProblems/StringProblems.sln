@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemStones", "GemStones\GemS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeItAnagram", "MakeItAnagram\MakeItAnagram.csproj", "{E7D9C83E-BADC-455E-B9CD-664C8A1077B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramReplacements", "AnagramReplacements\AnagramReplacements.csproj", "{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E7D9C83E-BADC-455E-B9CD-664C8A1077B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7D9C83E-BADC-455E-B9CD-664C8A1077B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7D9C83E-BADC-455E-B9CD-664C8A1077B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB7BDF7-1A53-495C-BE24-C30DA702C01B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
