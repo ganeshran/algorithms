@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EliminateAdjacentDuplicates", "EliminateAdjacentDuplicates\EliminateAdjacentDuplicates.csproj", "{49850010-A9FE-41CD-93E1-41665F2E1CCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyString", "FunnyString\FunnyString.csproj", "{4E08E7E3-0E71-4ACB-BF8E-2CBC0738AE8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{49850010-A9FE-41CD-93E1-41665F2E1CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49850010-A9FE-41CD-93E1-41665F2E1CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49850010-A9FE-41CD-93E1-41665F2E1CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E08E7E3-0E71-4ACB-BF8E-2CBC0738AE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E08E7E3-0E71-4ACB-BF8E-2CBC0738AE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E08E7E3-0E71-4ACB-BF8E-2CBC0738AE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E08E7E3-0E71-4ACB-BF8E-2CBC0738AE8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
