@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangrams", "Pangrams\Pangra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDeletionsRequired", "MinDeletionsRequired\MinDeletionsRequired.csproj", "{E60464BE-9B3A-4EC3-833E-87129BE49B2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramPalindrome", "Anagram Palindrome\AnagramPalindrome.csproj", "{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E60464BE-9B3A-4EC3-833E-87129BE49B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E60464BE-9B3A-4EC3-833E-87129BE49B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E60464BE-9B3A-4EC3-833E-87129BE49B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
