@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinDeletionsRequired", "Min
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramPalindrome", "Anagram Palindrome\AnagramPalindrome.csproj", "{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemStones", "GemStones\GemStones.csproj", "{DE8D7FEF-F0D2-4086-B417-195A6B6773C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D58DF71-3E92-458D-90AE-E9B4B14CAD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8D7FEF-F0D2-4086-B417-195A6B6773C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8D7FEF-F0D2-4086-B417-195A6B6773C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8D7FEF-F0D2-4086-B417-195A6B6773C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8D7FEF-F0D2-4086-B417-195A6B6773C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
