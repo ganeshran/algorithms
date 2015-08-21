@@ -10,7 +10,32 @@ namespace InsertionSort
     {
         private static void Main(string[] args)
         {
-            HalfInsertionSort(new int[]{2,3,4,5,6,7,8,9,10,1});
+            FullInsertionSort(new int[] {1, 4, 3, 5, 6, 2});
+        }
+
+        private static void FullInsertionSort(int[] ar)
+        {
+            for (int i = 0; i < ar.Length - 1; i++)
+            {
+                for (int j = i; j >= 0; j--)
+                {
+                    if (ar[j + 1] > ar[j]) break;
+
+                    int temp = ar[j];
+                    ar[j] = ar[j + 1];
+                    ar[j + 1] = temp;
+
+                }
+                PrintArray(ar);
+            }
+        }
+        static void PrintArray(int[] arr)
+        {
+            foreach (var i in arr)
+            {
+                Console.Write("{0} ",i);
+            }
+            Console.Write("\n");
         }
 
         private static void HalfInsertionSort(int[] ar)
